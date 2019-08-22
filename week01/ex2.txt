@@ -1,0 +1,168 @@
+    1  ls
+    2  mkdir ./anna
+    3  ls
+    4  pwd
+    5  sudo apt install gcc
+    6  sudo apt update
+    7  sudo apt upgrade 
+    8  sudo apt install gcc
+    9  sudo apt install gedit
+   10  touch main.c
+   11  gedit main.c
+   12  vi main.c
+   13  gcc main.c -o main
+   14  ./main
+   15  main
+   16  whoami
+   17  hostname
+   18  less
+   19  mkdir <week1>
+   20  mkdir ./week1
+   21  cd ./usr/bin
+   22  cd ~/week1
+   23  -r| grep cloud > ex1
+   24  -r| grep cloud >ex1.txt
+   25  C:\Users\Anna\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\shuva\week1 -1| grep cloud > ex1.txt
+   26  C:\Users\Anna\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\shuva\week1 -r| grep cloud > ex1.txt
+   27  ls C:\Users\Anna\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\shuva\week1 -r| grep cloud > ex1.txt
+   28  ls -r| grep cloud > ex1.txt
+   29  ls
+   30  whereami
+   31  cd ~/weel1
+   32  cd ~/week1
+   33  ls -r| grep cloud > ex1.txt
+   34  ls -r| grep cloud
+   35  ls -r| grep c
+   36  ls
+   37  pwd
+   38  ls
+   39  cd ../
+   40  ls
+   41  mkdir OS
+   42  cd OS
+   43  git clone https://github.com/Shuvani/Operating_Systems.git
+   44  mv ../week1/ Operating_Systems/
+   45  cd Operating_Systems/
+   46  ls
+   47  git add .
+   48  ls
+   49  cd week1/
+   50  ls
+   51  rm cloudksjflgyg.txt 
+   52  ls
+   53  cd ../
+   54  git add .
+   55  git commit 
+   56  git commit -a
+   57  git config --global user.email "gnomik2311@mail.ru"
+   58  git config -- global user.name "Shuva"
+   59  git config --global user.name "Shuva"
+   60  git commit
+   61  git push
+   62  history > ex2.txt
+   63  ~/week1/ex2.txt
+   64  ~/week1
+   65  cd ~/week1
+   66  history > ex2.txt
+   67  gedit ~/week1/main.c
+   68  cd ./OS
+   69  pwd
+   70  cd ./week1
+   71  touch main.c
+   72  gcc main.c -o ex4
+   73  ./ex4
+   74  gcc main.c -o ex4
+   75  ./ex4
+   76  history > ex3.txt
+   77  history > ex4.txt
+   78  touch ex3.sh
+   79  date
+   80  sleep 3
+   81  sh ex3.sh
+   82  touch ex3.sh
+   83  pwd
+   84  touch ex3.sh
+   85  sh ex3.sh
+   86  sleep --help
+   87  cat >ex3.sh
+   88  sh ex3.sh
+   89  pwd
+   90  ls
+   91  cat ex3.sh 
+   92  cat
+   93  cat ex3.s
+   94  nano ex3.sh
+   95  cat ex3.sh
+   96  ls
+   97  touch ex3.h
+   98  ls
+   99  rm ex3.h ex3.sh
+  100  mv ex3.h ex3.sh
+  101  touch ex3.h
+  102  mv ex3.h ex3.sh
+  103  ls
+  104  ls OS/Operating_Systems/
+  105  ls
+  106  cd OS/Operating_Systems/week1/
+  107  ls
+  108  touch ex3.h
+  109  mv ex3.h ex3.sh
+  110  nano ex3.sh 
+  111  clear
+  112  chmod 777 ex3.sh 
+  113  ./ex3.sh 
+  114  ls
+  115  ls -a
+  116  git status 
+  117  git add *
+  118  git status 
+  119  git add ex2.txt 
+  120  ls
+  121  git status 
+  122  git add .
+  123  ls
+  124  chmod 777 main.c 
+  125  git add .
+  126  git status 
+  127  git commit -m "delala ne ya"
+  128  git push origin master 
+  129  ls
+  130  cd ../
+  131  ls
+  132  git status
+  133  git ammend
+  134  git commit --amend
+  135  ls
+  136  git status 
+  137  git remote add origin https://github.com/Shuvani/Operating_Systems.git
+  138  git push origin master 
+  139  whoami
+  140  hostname
+  141  man <cat>
+  142  man cat
+  143  man --help
+  144  less
+  145  less --help
+  146  head -h
+  147  head --help
+  148  tail --help
+  149  clear
+  150  man -h | head
+  151  pwd
+  152  usermode --help
+  153  usermod --help
+  154  usermode -d C:\Users\Анна\Desktop\программы\программирование\home\shuva
+  155  u
+  156  pwd
+  157  mkdir week1
+  158  cd week1
+  159  pwd
+  160  touch file1.gcc
+  161  touch file2.txt
+  162  touch something3.gcc
+  163  touch anythingelse.gcc
+  164  ls | sort -r
+  165  ls | sort -r | grep gcc
+  166  touch ex1.txt
+  167  ls | sort -r | grep gcc > ex1.txt
+  168  history > ex2.txt
