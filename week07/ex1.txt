@@ -1,0 +1,2 @@
+   text    data     bss     dec     hex filename
+   2791     680       8    3479     d97 ex01.exe

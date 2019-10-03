@@ -1,31 +1,34 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
+#define n 6
+
+void quik_sort(int *arr, int first, int last){
+     if (first < last)
+    {
+        int left = first;
+		int right = last;
+		int middle = arr[(left + right) / 2];
+        do{
+            while (arr[left] < middle) left++;
+            while (arr[right] > middle) right--;
+            if (left <= right)
+            {
+                int tmp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = tmp;
+                left++;
+                right--;
+            }
+        } while (left <= right);
+        quik_sort(arr, first, right);
+        quik_sort(arr, left, last);
+    }
+}
 
 int main(){
-	char input[200];
-	char ex[] = "exit";
-	while (1){
-		int i = 0;
-		fgets(input, 200, stdin);
-		while (input[i]!= '\0'){
-			i++;
-		}
-		if (input[i-1] == '&'){
-			pid_t pid;
-			switch(pid = fork()) {
-				case -1:
-					perror("fork"); /* произошла ошибка */
-					exit(1); /*выход из родительского процесса*/
-				case 0:
-					system(input);
-					break;
-			}
-		}
-		else if (strcmp(input, ex) == 0){
-			break;
-		} else system(input);
+	int a[n] = {1, 6, 4, 5, 2, 8};
+	quik_sort(a, 0, n-1);
+	for (int i = 0; i < n; i++){
+		printf("%d ", a[i]);
 	}
 	return 0;
 }
