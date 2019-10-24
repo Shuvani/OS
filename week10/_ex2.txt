@@ -1,0 +1,9 @@
+cd ..
+$ cd week01
+$ touch file.txt
+$ cd .. cd week10
+$ link ../week01/file.txt _ex2.txt
+$ find ../week01/ -inum 8725724278203652
+../week01/file.txt
+$ find ../week01/ -inum 8725724278203652 -exec rm {} \;
+
