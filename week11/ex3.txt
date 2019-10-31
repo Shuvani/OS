@@ -1,0 +1,7 @@
+We know that new process copies all information from the parent, so
+In the first variant buffer before the fork will contain "Hello"
+	Then fork -> buffer of the new process contains "Hello"
+	Then they both get \n and print two hellos
+In the second variant first process gets "Hello\n" -> prints Hello and buffer before the fork is empty
+	Then fork -> buffer of the new process is also empty
+	Then they both get \n, that's all.
