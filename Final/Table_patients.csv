@@ -1,0 +1,10 @@
+patient_id,patient_condition,hospitalization_priority,medical_policy,doctor_id
+20,ill,0,smth,1
+21,ill,0,smth,2
+22,ill,0,smth,3
+23,ill,0,smth,4
+24,ill,0,smth,5
+25,ill,0,smth,6
+26,ill,0,smth,7
+27,ill,0,smth,8
+28,ill,0,smth,9

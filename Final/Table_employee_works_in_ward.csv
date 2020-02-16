@@ -1,0 +1,10 @@
+since,until,employees_id,ward_number,ward_name
+2000-01-12,2015-03-16,1,1,clinic
+2000-01-12,2015-03-16,2,2,clinic
+2000-01-12,2015-03-16,3,3,physiotherapy
+2000-01-12,2015-03-16,4,4,physiotherapy
+2000-01-12,2015-03-16,5,5,physiotherapy
+2000-01-12,2015-03-16,6,6,physiotherapy
+2000-01-12,2015-03-16,7,7,physiotherapy
+2000-01-12,2015-03-16,8,8,physiotherapy
+2000-01-12,2015-03-16,9,6,surgery
