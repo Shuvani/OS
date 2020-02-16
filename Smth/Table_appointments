@@ -1,0 +1,10 @@
+day_of_the_week,appointment_date,appointment_type,requesting_id,requested_id,room_number,ward_number,ward_name
+Wednesday,2001-09-28 01:00:00,smth,20,1,1,1,clinic
+Wednesday,2001-09-28 01:00:00,smth,21,2,2,2,clinic
+Wednesday,2001-09-28 01:00:00,smth,22,3,3,3,physiotherapy
+Wednesday,2001-09-28 01:00:00,smth,23,4,4,4,physiotherapy
+Wednesday,2001-09-28 01:00:00,smth,24,5,5,5,physiotherapy
+Wednesday,2001-09-28 01:00:00,smth,25,6,6,6,physiotherapy
+Wednesday,2001-09-28 01:00:00,smth,26,7,7,7,physiotherapy
+Wednesday,2001-09-28 01:00:00,smth,27,8,8,8,physiotherapy
+Wednesday,2001-09-28 01:00:00,smth,28,9,9,1,surgery
